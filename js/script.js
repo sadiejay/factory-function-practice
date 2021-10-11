@@ -26,7 +26,7 @@ const createPet = function (name, species) {
     }
     return pet;
 }
-
+//  array of pets
 const dora = createPet ('Dora', 'aardvark');
 const binky = createPet ('Binky', 'dog');
 const baxter = createPet ('Baxter','rabbit');
@@ -35,7 +35,7 @@ const francine = createPet ('Francine','cat');
 
 // console.log(dora, binky, baxter, muffy, francine);
 
-binky.sleep();
-baxter.play();
+// binky.sleep();
+// baxter.play();
 
 // console.log(binky, baxter);
