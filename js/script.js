@@ -24,4 +24,11 @@ const createPet = function (name, species) {
         }
       },
     }
+    return pet;
 }
+
+const dora = createPet ('Dora', 'aardvark');
+const binky = createPet ('Binky', 'dog');
+const baxter = createPet ('Baxter','rabbit');
+const muffy = createPet ('Muffy','monkey');
+const francine = createPet ('Francine','cat');
