@@ -32,3 +32,10 @@ const binky = createPet ('Binky', 'dog');
 const baxter = createPet ('Baxter','rabbit');
 const muffy = createPet ('Muffy','monkey');
 const francine = createPet ('Francine','cat');
+
+// console.log(dora, binky, baxter, muffy, francine);
+
+binky.sleep();
+baxter.play();
+
+// console.log(binky, baxter);
